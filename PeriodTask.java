@@ -1,5 +1,4 @@
-package DmitryT74.task;
-
+package DmitryT74.task.Application;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
@@ -10,7 +9,6 @@ public class PeriodTask extends Task{
     private  String body;//description of the task
     private long perCnt;//periods in days
     //Incapsulation of data , only admin can change
-
     private void setDat_cr(String d)
     {
         this.dat_cr=d;
@@ -20,13 +18,13 @@ public class PeriodTask extends Task{
     {
         this.dat_cr=lc.toString();
     }
-    private enum Categor{
+    private enum Category {
         //category of tasks
         T_One,
         T_Two,
         T_Three;
     }
-    private Categor ct;//category of tasks
+    private Category ct;//category of tasks
     private enum Priority
     {
         Hig,
@@ -35,13 +33,13 @@ public class PeriodTask extends Task{
     }
     private Priority priority;
     //Implementing constructor
-        PeriodTask()//constructor by default
+    PeriodTask()//constructor by default
     {
         super();//calling constructor from superclass
         this.body="-";
         this.dat_cr= LocalDate.now().toString();
         priority= Priority.Hig;
-        ct= Categor.T_One;
+        ct= Category.T_One;
         this.perCnt=0;
     }
     //constructor parameters
@@ -49,7 +47,7 @@ public class PeriodTask extends Task{
     {
         super(t,k,pr,d);//transfering parameters of constructor to superclass
         this.priority= Priority.valueOf(pr);//re-transforming to enumerated type
-        this.ct= Categor.valueOf(k);
+        this.ct= Category.valueOf(k);
         this.dat_cr=d_c;
         this.body=_bd;
         this.perCnt=getDayToDo();
@@ -82,19 +80,16 @@ public class PeriodTask extends Task{
     public void setBody(String body) {
         this.body = body;
     }
-
     public String getDat_cr() {
         return dat_cr;
     }
-
-    public void setKt(Categor kt) {
+    public void setKt(Category kt) {
         this.ct = kt;
     }
     public void setKt(String k)
     {
-        this.ct= Categor.valueOf(k);
+        this.ct= Category.valueOf(k);
     }
-
     public String getKt() {
         return ct.toString();
     }
