@@ -1,0 +1,9 @@
+
+N
+java:S1144	",Remove this unused private "setType" method.(Ç•—ñÿÿÿÿÿ8Áûğ¿ø.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èóê×
+>
+java:S1110>"!Remove these useless parentheses.(ªêÜú8Áûğ¿ø.
+k
+java:S2153"IRemove the boxing to "Integer"; The argument is already of the same type.(×äñ·şÿÿÿÿ8Áûğ¿ø.
+n	java:S116"RRename this field "NikName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì˜»ö8Áûğ¿ø.

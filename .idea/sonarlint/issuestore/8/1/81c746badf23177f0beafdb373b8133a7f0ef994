@@ -1,0 +1,33 @@
+
+{	java:S1158"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“ï·Ëÿÿÿÿÿ8ÆãÖ¿ø.
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ƒû¹ÿÿÿÿÿ8ÆãÖ¿ø.
+i	java:S100`"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ•Ä8ÆãÖ¿ø.
+F
+java:S1172x")Remove this unused method parameter "sp".(ÂÅó8ÆãÖ¿ø.
+n	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ¹öí8ÆãÖ¿ø.
+o	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„‹ı€ûÿÿÿÿ8ÆãÖ¿ø.
+v	java:S1156"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôü‹˜8ÆãÖ¿ø.
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¯§€üÿÿÿÿ8ÆãÖ¿ø.
+r	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÛ¶¦şÿÿÿÿ8ÆãÖ¿ø.
+v	java:S1150"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õ¸³ª8ÆãÖ¿ø.
+v	java:S115."ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ó±‚»8ÆãÖ¿ø.
+r	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÛ¶¦şÿÿÿÿ8ÆãÖ¿ø.
+r	java:S116"QRename this field "dat_cr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á×¯´ûÿÿÿÿ8ÆãÖ¿ø.
+K
+java:S1172d")Remove this unused method parameter "kt".(ğ¾Ÿÿÿÿÿÿ8¨°öÛø.
+E
+java:S1172h"(Remove this unused method parameter "k".(°Î›î8ÆãÖ¿ø.
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èóê×8…Ô¿ø.
+_
+java:S1126"AReplace this if-then-else statement by a single return statement.(‘öá®8ÆãÖ¿ø.
+{	java:S115/"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(’ñº„şÿÿÿÿ8ÆãÖ¿ø.
+v	java:S1157"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ë†¥½8ÆãÖ¿ø.
+o	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì“í‡øÿÿÿÿ8ÆãÖ¿ø.
+‚
+java:S4165e"`Remove this useless assignment; "ct" already holds the assigned value along all execution paths.(ûÊÁÈúÿÿÿÿ8›©ÃÜø.
+M
+java:S2160"+Override the "equals" method in this class.(ªÙŒ»ıÿÿÿÿ8›©ÃÜø.
+P
+java:S1144#".Remove this unused private "setDat_cr" method.(Ì“í‡øÿÿÿÿ8›©ÃÜø.
+P
+java:S1144(".Remove this unused private "setDat_cr" method.(„‹ı€ûÿÿÿÿ8›©ÃÜø.

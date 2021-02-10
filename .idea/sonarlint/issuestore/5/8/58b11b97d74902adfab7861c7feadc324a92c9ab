@@ -1,0 +1,28 @@
+
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(’ñº„þÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ó±‚»
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‡‰®ÿûÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôü‹˜
+t	java:S115!"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“ï·Ëÿÿÿÿÿ
+i	java:S100ˆ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÐßÓøÿÿÿÿ
+b	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ•Ä
+X
+java:S1126‚"AReplace this if-then-else statement by a single return statement.(‘öá®
+o	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ë†¥½
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èóê×
+k	java:S116"QRename this field "dat_cr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï—óÿþÿÿÿÿ
+k	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ»…¯ûÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËäàÍûÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼¤ð¨ùÿÿÿÿ
+f	java:S117{"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ¹öí
+k	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ»…¯ûÿÿÿÿ
+N
+java:S1153s"1Directly append the argument of String.valueOf().(Ì•œ¹8›©ÃÜø.
+M
+java:S2160"+Override the "equals" method in this class.(®£¯äþÿÿÿÿ8›©ÃÜø.
+P
+java:S1144".Remove this unused private "setDat_cr" method.(ËäàÍûÿÿÿÿ8›©ÃÜø.
+P
+java:S1144".Remove this unused private "setDat_cr" method.(¼¤ð¨ùÿÿÿÿ8›©ÃÜø.
+P
+java:S1144B".Remove this unused private "setPerCnt" method.(Î³Æ–þÿÿÿÿ8›©ÃÜø.
