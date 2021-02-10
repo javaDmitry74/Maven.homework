@@ -1,4 +1,4 @@
-package DmitryT74.task;
+package DmitryT74.task.Application;
 
 import java.time.LocalDate;
 import java.util.Objects;
@@ -50,23 +50,18 @@ public abstract class Task {
     {
         this.dat_v=d.toString();
     }
-
     public String getDat_v() {
         return dat_v;
     }
-
     public String getKat() {
         return cat;
     }
-
     public String getPrt() {
         return prt;
     }
-
     public String getTitle() {
         return title;
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -74,12 +69,10 @@ public abstract class Task {
         Task task = (Task) o;
         return Objects.equals(title, task.title) && Objects.equals(cat, task.cat) && Objects.equals(prt, task.prt) && Objects.equals(dat_v, task.dat_v);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(title, cat, prt, dat_v);
     }
-
     @Override
     public String toString() {
         return  title + " " +

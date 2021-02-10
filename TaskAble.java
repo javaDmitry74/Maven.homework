@@ -1,4 +1,4 @@
-package DmitryT74.task;
+package DmitryT74.task.Application;
 
 import java.util.*;
 

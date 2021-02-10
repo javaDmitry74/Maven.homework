@@ -1,4 +1,4 @@
-package DmitryT74.task;
+package DmitryT74.task.Application;
 
 public class Application {
     public static void main(String[] args) {
@@ -6,5 +6,4 @@ public class Application {
         //example
         System.out.println("Hurry up , you only have left  "+tsk.getDayToDo()+ " days");
     }
-
 }

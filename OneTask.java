@@ -1,4 +1,4 @@
-package DmitryT74.task;
+package DmitryT74.task.Application;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -35,19 +35,16 @@ public class OneTask extends Task {
     private void setDat_cr(String d) {
         this.dat_cr = d;
     }
-
     //polymorphism reloading method changes by  LocalDate
     private void setDat_cr(LocalDate lc) {
         this.dat_cr = lc.toString();
     }
-
     private enum Categor {
         //category of tasks
         T_One,
         T_Two,
         T_Three
     }
-
     private Categor ct;//category of tasks
 
     private enum Priority {
@@ -55,7 +52,6 @@ public class OneTask extends Task {
         Middle,
         Low
     }
-
     private Priority priority;
 
     //Implementing constructor
@@ -67,7 +63,6 @@ public class OneTask extends Task {
         priority = Priority.Hig;
         ct = Categor.T_One;
     }
-
     //constructor parameters
     OneTask(String t, String k, String pr, String d, String d_c, String _bd) {
         super(t, k, pr, d);//transfering parameters of constructor to superclass
@@ -76,7 +71,6 @@ public class OneTask extends Task {
         this.dat_cr = d_c;
         this.body = _bd;
     }
-
     OneTask(OneTask obj) {
         super(obj);
         this.ct = obj.ct;
@@ -84,50 +78,39 @@ public class OneTask extends Task {
         this.dat_cr = obj.dat_cr;
         this.priority = obj.priority;
     }
-
     public String getBody() {
         return body;
     }
-
     public void setBody(String body) {
         this.body = body;
     }
-
     public String getDat_cr() {
         return dat_cr;
     }
-
     public void setKt(Categor kt) {
         this.ct = ct;
     }
-
     public void setKt(String k) {
         this.ct = this.StrToEnumKot(super.getKat());
     }
-
     public String getKt() {
         return ct.toString();
     }
-
     public String getPriority() {
         return priority.toString();
     }
-
     public void setPriority(Priority p) {
         this.priority = p;
     }
-
     public void setPriority(String sp) {
         this.priority = this.StrToEnumPr(super.getPrt());//re-transforming to enumerated type
     }
-
     //reloading method  toString
     @Override
     public String toString() {
         return super.toString() + " " +
                 this.dat_cr + " " + this.body;
     }
-
     //implemented method giving us how many days left until task is complete
     @Override
     public long getDayToDo() {
@@ -136,7 +119,6 @@ public class OneTask extends Task {
         LocalDate DatDo = LocalDate.parse(super.getDat_v(), formatter);
         return cur.until(DatDo, ChronoUnit.DAYS);
     }
-
     //implementing check if we still have time to complete task than we will have True
     @Override
     public boolean isHaveTime() {
