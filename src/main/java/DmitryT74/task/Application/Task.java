@@ -73,7 +73,6 @@ public abstract class Task {
     public int hashCode() {
         return Objects.hash(title, cat, prt, dat_v);
     }
-
     @Override
     public String toString() {
         return  title + " " +
