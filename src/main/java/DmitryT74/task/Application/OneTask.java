@@ -13,7 +13,7 @@ public class OneTask extends Task {
         //Priority to 3 kinds
         Priority ans;
         if (s.equalsIgnoreCase("hig"))
-            ans = Priority.Hig;
+            ans = Priority.High;
         else if (s.equalsIgnoreCase("low"))
             ans = Priority.Low;
         else ans = Priority.Middle;
@@ -48,7 +48,7 @@ public class OneTask extends Task {
     private Categor ct;//category of tasks
 
     private enum Priority {
-        Hig,
+        High,
         Middle,
         Low
     }
@@ -60,7 +60,7 @@ public class OneTask extends Task {
         super();//calling constructor from superclass
         this.body = "-";
         this.dat_cr = LocalDate.now().toString();
-        priority = Priority.Hig;
+        priority = Priority.High;
         ct = Categor.T_One;
     }
     //constructor parameters

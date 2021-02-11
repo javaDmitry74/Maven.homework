@@ -104,7 +104,6 @@ public class PeriodTask extends Task{
     {
         this.priority= Priority.valueOf(sp);
     }
-
     @Override
     public String toString() {
         return super.toString()+" "+
