@@ -18,7 +18,7 @@ public class PeriodTask extends Task{
     {
         this.dat_cr=lc.toString();
     }
-    private enum Category{
+    private enum Category {
         //category of tasks
         T_One,
         T_Two,

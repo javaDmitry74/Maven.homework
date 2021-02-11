@@ -1,5 +1,0 @@
-
-n	java:S116"RRename this field "NikName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì˜»ö8ˆÈê¿ø.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èóê×
-N
-java:S1144",Remove this unused private "setType" method.(„ªÃçøÿÿÿÿ8ˆÈê¿ø.

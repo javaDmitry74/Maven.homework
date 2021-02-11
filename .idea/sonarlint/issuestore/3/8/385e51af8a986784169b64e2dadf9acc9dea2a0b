@@ -1,7 +1,0 @@
-
-j	java:S1005"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÂ«Ñ8Õâá¿ø.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èóê×
-o	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨­€ùÿÿÿÿ8Õâá¿ø.
-q	java:S116
-"PRename this field "dat_v" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸×àÊÿÿÿÿÿ8…ìêÛø.
-j	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ÈßÑ8Õâá¿ø.
