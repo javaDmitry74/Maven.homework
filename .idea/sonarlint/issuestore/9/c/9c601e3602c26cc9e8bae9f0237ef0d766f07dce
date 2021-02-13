@@ -1,0 +1,8 @@
+
+k
+java:S2153"IRemove the boxing to "Integer"; The argument is already of the same type.(׳הס·‏ÿÿÿÿ8עלהאר.
+N
+java:S1144	",Remove this unused private "setType" method.(ַ•—סÿÿÿÿÿ8עלהאר.
+7
+java:S11105"!Remove these useless parentheses.(´·ˆ‏
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©תÿÿÿÿ
