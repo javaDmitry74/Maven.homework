@@ -3,6 +3,6 @@ k
 java:S2153"IRemove the boxing to "Integer"; The argument is already of the same type.(×äñ·şÿÿÿÿ8òìäàø.
 N
 java:S1144	",Remove this unused private "setType" method.(Ç•—ñÿÿÿÿÿ8òìäàø.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œ©úÿÿÿÿ
 7
 java:S11105"!Remove these useless parentheses.(´·ˆş
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œ©úÿÿÿÿ

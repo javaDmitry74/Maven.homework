@@ -1,28 +1,28 @@
 
-t	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“ï·Ëÿÿÿÿÿ
-f	java:S117v"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ¹öí
-o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ó±‚»
-t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(’ñº„şÿÿÿÿ
-W
-java:S1126}"AReplace this if-then-else statement by a single return statement.(‘öá®
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëæ”‘
-o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôü‹˜
 k	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ»…¯ûÿÿÿÿ
-o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ë†¥½
-P
-java:S1144".Remove this unused private "setDat_cr" method.(¼¤ğ¨ùÿÿÿÿ8”èàø.
 P
 java:S1144A".Remove this unused private "setPerCnt" method.(Î³Æ–şÿÿÿÿ8”èàø.
-h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼¤ğ¨ùÿÿÿÿ
-i	java:S100ƒ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôĞßÓøÿÿÿÿ
-P
-java:S1144".Remove this unused private "setDat_cr" method.(ËäàÍûÿÿÿÿ8”èàø.
-b	java:S100S"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ•Ä
-t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‡‰®ÿûÿÿÿÿ
-h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËäàÍûÿÿÿÿ
-k	java:S116"QRename this field "dat_cr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï—óÿşÿÿÿÿ
-M
-java:S2160"+Override the "equals" method in this class.(®£¯äşÿÿÿÿ8”èàø.
 N
 java:S1153n"1Directly append the argument of String.valueOf().(Ì•œ¹8”èàø.
+f	java:S117v"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ¹öí
+W
+java:S1126}"AReplace this if-then-else statement by a single return statement.(‘öá®
+t	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“ï·Ëÿÿÿÿÿ
+k	java:S116"QRename this field "dat_cr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï—óÿşÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ë†¥½
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‡‰®ÿûÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôü‹˜
+P
+java:S1144".Remove this unused private "setDat_cr" method.(¼¤ğ¨ùÿÿÿÿ8”èàø.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëæ”‘
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(’ñº„şÿÿÿÿ
+P
+java:S1144".Remove this unused private "setDat_cr" method.(ËäàÍûÿÿÿÿ8”èàø.
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËäàÍûÿÿÿÿ
+b	java:S100S"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ•Ä
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼¤ğ¨ùÿÿÿÿ
+i	java:S100ƒ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôĞßÓøÿÿÿÿ
 k	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ»…¯ûÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ó±‚»
+M
+java:S2160"+Override the "equals" method in this class.(®£¯äşÿÿÿÿ8”èàø.
